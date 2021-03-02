@@ -104,7 +104,7 @@ pipeline{
   }
   post {  
          always {  
-             echo 'This will always run'  
+             echo 'This will always run always'  
          }  
          success {   
             echo "========Deploying executed successfully========"
