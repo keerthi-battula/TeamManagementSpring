@@ -5,7 +5,7 @@ pipeline{
          AWS_DEFAULT_REGION='us-east-2'
      }
      triggers {
-        pollSCM 'H/10 * * * *'
+        pollSCM '* * * * *'
     }
     tools { 
         maven 'maven'
